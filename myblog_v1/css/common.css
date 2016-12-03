@@ -1,0 +1,98 @@
+/*整体样式*/
+body{
+    color: #999;
+    background: #fff;
+    font: 12px "microsoft yahei",Arial,sans-serif;
+}
+body,ul,li,button,h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+input,button{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #999;
+    text-decoration: none;
+}
+a:hover{
+    color: #39c;
+}
+img{
+    vertical-align: bottom;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.of{
+   overflow: hidden;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*color*/
+.red,.red:hover,.h_red a:hover{
+    color: #f73b3b;
+}
+/*background-color*/
+.article,.new_comment li,.link div,.tag div{
+    background: #fff;
+}
+/*font*/
+.title{
+    font-size: 20px;
+    color: #555;
+}
+/*opacity*/
+.opacity:hover{
+    opacity: 0.8;
+}
+/*animation*/
+@keyframes border {
+    from{
+        border-radius: 0 0;
+    }
+    to{
+        border-radius: 55px 0;
+    }
+}
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes sight {
+    0%{
+        transform: translateZ(0);
+    }
+    50%{
+        transform: translateZ(100px);
+    }
+    100%{
+        transform: translateZ(0);
+    }
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
